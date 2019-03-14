@@ -1,0 +1,39 @@
+.w(@px){
+	width: unit(@px/@adaptive,rem);
+}
+.h(@px){
+	height:unit(@px/@adaptive,rem);
+}
+.line-h(@px){
+	line-height:unit(@px/@adaptive,rem);
+}
+
+.border(){
+	border:1px solid red;
+}
+
+.padding(@top,@right,@bottom,@left){
+	padding: unit(@top/@adaptive,rem) unit(@right/@adaptive,rem) unit(@bottom/@adaptive,rem) unit(@left/@adaptive,rem);
+}
+.margin(@top,@right,@bottom,@left){
+	margin: unit(@top/@adaptive,rem) unit(@right/@adaptive,rem) unit(@bottom/@adaptive,rem) unit(@left/@adaptive,rem);
+}
+.marginauto(@px){
+	margin: unit(@px/37.5,rem) auto;
+}
+
+.top(@px){
+	top:unit(@px/@adaptive,rem);
+}
+.right(@px){
+	right:unit(@px/@adaptive,rem);
+}
+.bottom(@px){
+	bottom:unit(@px/@adaptive,rem);
+}
+.left(@px){
+	left:unit(@px/@adaptive,rem);
+}
+.b-radio(@px){
+	border-radius: unit(@px/@adaptive,rem);
+}
